@@ -1,0 +1,42 @@
+h1{
+  font-family: 'Jacques Francois Shadow', cursive;
+  color:#052C7E;
+  font-size: 40px;
+}
+
+body{
+  background-color:#FFDAB9	;
+}
+
+button{
+  height:40px;
+  width:50px;
+  border-radius: 10px;
+  background-color: #052C7E;
+  color: #FFFFFF;
+}
+.paragraph{
+  font-size:50px;
+  color:#052C7E;
+  font-family: 'Indie Flower', cursive;
+}
+@media screen and (max-width:985px){
+    h1{
+      font-size:45px;
+    }
+    button{
+      height:50px;
+      width:70px;
+      font-size: 15px;
+    }
+  .paragraph{
+    font-size: 25px;
+  }
+
+}
+@media screen and (max-width:600px){
+  h1{
+    font-size: 50px;
+  }
+
+}
